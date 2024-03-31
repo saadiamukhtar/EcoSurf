@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="left">
+            <div class="todays-detail">
+                <small>Today</small>
+                <h1>Sunday</h1>
+                <p>31st March</p>
+            </div>
+            <div class="today">
+                <img src="speedometer.png" alt="speedometer">
+                <div>Today's CO<sub>2</sub>e</div>
+                <span id="today-carbon"></span>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="right-content">
+				<div class="forecast">
+					<div class="forecast-title">Annual Forecast (CO<sub>2</sub>e / year)</div>
+					<div id="forecast-count">Too early to tell</div>
+					<div class="forecast-equivalent" id="flights">Return in 24 to 48 hours for your yearly carbon projection..
+					</div>
+					<div class="forecast-equivalent" id="trees"></div>
+                    <div class="forecast-equivalent" id="ice"></div>
+				</div>
+			</div>
+            <div class="chart-caption">Graph for past 30 days</div>
+            <div id="chart">
+                <div id="chart-default"></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="javascript/popup.js"></script>
+</body>
+</html>
